@@ -1,0 +1,27 @@
+body {
+  margin: 0ps;
+}
+
+ul {
+  padding: 0px;
+  margin: 0ps;
+  list-style: none;
+}
+img {
+  display: block; /* tira espaçoes entre eles */
+  max-width: 100%;
+}
+
+.slide {
+  display: flex; /* um ao lado do outro */
+}
+.slide-wrapper {
+  overflow: hidden;
+}
+
+.slide li {
+  flex-shrink: 0; /* para não comprimir os slides */
+  width: 80vw; /* 80% tamanho da tela */
+  max-width: 800px; /* tamanho maximo */
+  margin: 0 20px;
+}
